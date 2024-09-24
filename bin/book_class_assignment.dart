@@ -18,10 +18,10 @@ class Book{
     totalBooks++;
   }
 
-  String get title =>_title;
+  /*String get title =>_title;
   String get author => _author;
   int get publicationYear => _publicationYear;
-  int get pagesRead => _pagesRead;
+  int get pagesRead => _pagesRead;*/
 
   void read(int pages){
     if(pages<0){
